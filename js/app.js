@@ -156,7 +156,7 @@
     var l=pick(lang);
     var L=I18N[l];
     document.documentElement.lang=l;
-    try{localStorage.setItem("nl_lang",l);}catch(e){}
+    try{localStorage.setItem("tl_lang",l);}catch(e){}
     document.querySelectorAll(".lang-btn").forEach(function(b){
       b.classList.toggle("active", b.getAttribute("data-lang")===l);
     });
@@ -176,7 +176,7 @@
     applyBrand();
     // initial language: URL ?lang= > saved > browser > default
     var url=new URLSearchParams(location.search).get("lang");
-    var saved;try{saved=localStorage.getItem("nl_lang");}catch(e){}
+    var saved;try{saved=localStorage.getItem("tl_lang");}catch(e){}
     setLang(url||saved||navigator.language||DEFAULT);
 
     document.querySelectorAll(".lang-btn").forEach(function(b){
