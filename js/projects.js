@@ -13,7 +13,7 @@ window.FEATURED = {
   ],
   en:{sector:"K-12 EDUCATION · US-IPO-STAGE",title:"Sales Enablement & Operations Platform",
     tags:["Instant answers","AI practice calls","Auto-assign customers","One daily report","Forecasts","Call scoring"],
-    summary:"A US-IPO-stage K-12 education company with a sales team of hundreds. They were assigning leads by hand, hunting through documents for the right script, and rebuilding the monthly numbers in spreadsheets. I turned all of it into one internal system that runs itself, and the team now uses it every day to run a business doing over ¥100M a year.",
+    summary:"A US-IPO-stage K-12 education company with a sales team of hundreds. They were assigning leads by hand, hunting through documents for the right script, and rebuilding the monthly numbers in spreadsheets. I turned all of it into one internal system that runs itself, and the team now uses it every day to run a business doing over ¥100M a year. <b>The same goes for your business:</b> run a clinic or a shop and it's appointment reminders, post-visit follow-ups, and sales rolled up across locations; run a wholesale operation and it's customer follow-up, reconciling the books, and tracking down stock. Same idea, whatever your trade.",
     impact:[{n:"¥100M+",l:"annual revenue it supports"},{n:"¥10M+",l:"net profit it underpins"},{n:"daily",l:"used by the whole sales team"}],
     hl:["The team gets the right script, price or policy the moment they ask, every answer backed by a source.","AI plays the customer so reps can practice, then scores them, so new hires ramp up faster.","Every lead reaches the right person within minutes, instead of a manager assigning them by hand.","Every sales call is reviewed and scored automatically, not just a random sample.","The monthly numbers build themselves into a daily dashboard, with forecasts, so no more spreadsheet nights."]},
   zh:{sector:"K12 教育 · 美股准上市公司",title:"给销售团队的自动化系统",
@@ -23,12 +23,12 @@ window.FEATURED = {
     hl:["团队张口就查到该用的话术、报价、政策，答案都带出处，不用再翻文档。","AI 扮演客户陪销售练话术，还自动打分，新人上手更快。","每条线索几分钟内自动派给最合适的人，不再靠主管手动分。","每通销售电话自动复盘打分，从抽检变成全覆盖。","经营数据每天自动汇成看板、还能预测业绩，月底不用再手工拉表。"]},
   ja:{sector:"K-12 教育 · 米国上場準備",title:"営業支援・経営プラットフォーム",
     tags:["即答ナレッジ","AI模擬ロープレ","見込み客 自動割当","日次レポート","売上予測","通話 自動採点"],
-    summary:"米国上場準備段階まで進んだ K-12 教育企業、数百人の営業チーム。以前はリードを手で割り振り、資料を探してトークを見つけ、月末は数字を手作業で集計していました。これらをまるごと、ひとりでに回る内製システムにしました。年商1億元超の事業を支え、チームが毎日使っています。",
+    summary:"米国上場準備段階まで進んだ K-12 教育企業、数百人の営業チーム。以前はリードを手で割り振り、資料を探してトークを見つけ、月末は数字を手作業で集計していました。これらをまるごと、ひとりでに回る内製システムにしました。年商1億元超の事業を支え、チームが毎日使っています。<b>あなたの商売でも同じです：</b>お店をやっているなら予約のリマインド、来店後のフォロー、何店舗あっても売上は勝手に一つにまとまる；卸をやっているなら客先の追いかけ、帳簿の突き合わせ、在庫探し——どれも同じやり方です。",
     impact:[{n:"1億元超",l:"支える事業の年商"},{n:"千万元超",l:"支える事業の純利益"},{n:"毎日",l:"営業チーム全員が使用"}],
     hl:["トーク、見積、社内ルールが、聞けばその場で。答えには必ず出どころ付き。資料探しはもう不要。","AIが顧客役を務め、営業が練習でき、自動で採点。新人の立ち上がりが速くなります。","どのリードも数分で最適な担当へ自動で。上長が手で割り振る必要はありません。","すべての営業通話を自動でレビュー・採点。抜き取りではなく全件を。","月次の数字は毎日ひとりでにダッシュボードへ。予測まで付き、月末の集計作業から解放されます。"]},
   ko:{sector:"K-12 교육 · 미국 상장 준비",title:"영업 지원·경영 플랫폼",
     tags:["즉답 검색","AI 모의 연습","고객 자동 배정","일일 리포트","매출 예측","통화 자동 채점"],
-    summary:"미국 상장 준비 단계까지 갔던 K-12 교육 기업, 수백 명 규모의 영업팀. 예전에는 리드를 손으로 배정하고, 자료를 뒤져 멘트를 찾고, 월말에 숫자를 수작업으로 집계했습니다. 이 모든 걸 알아서 돌아가는 사내 시스템으로 만들었습니다. 연 매출 1억 위안이 넘는 사업을 떠받치고, 팀이 매일 씁니다.",
+    summary:"미국 상장 준비 단계까지 갔던 K-12 교육 기업, 수백 명 규모의 영업팀. 예전에는 리드를 손으로 배정하고, 자료를 뒤져 멘트를 찾고, 월말에 숫자를 수작업으로 집계했습니다. 이 모든 걸 알아서 돌아가는 사내 시스템으로 만들었습니다. 연 매출 1억 위안이 넘는 사업을 떠받치고, 팀이 매일 씁니다.<b>당신 사업도 똑같습니다:</b> 매장 하시면 예약 알림, 방문 후 후속 연락, 여러 매장 매출 자동 집계고요, 도매 하시면 거래처 관리, 장부 대조, 물건 찾기 — 결국 같은 방식입니다.",
     impact:[{n:"1억 위안+",l:"지원 사업 연매출"},{n:"천만 위안+",l:"지원 사업 순이익"},{n:"매일",l:"영업팀 전체가 사용"}],
     hl:["멘트, 견적, 정책을 물으면 그 자리에서. 답변마다 출처가 붙어 자료를 뒤질 일이 없습니다.","AI가 고객 역할을 맡아 영업이 연습하고, 자동으로 채점합니다. 신입이 더 빨리 자리잡습니다.","모든 리드가 몇 분 안에 가장 알맞은 사람에게 자동 배정. 관리자가 손으로 나눌 필요가 없습니다.","모든 영업 통화를 자동으로 리뷰·채점. 표본이 아니라 전체를.","월별 숫자가 매일 알아서 대시보드로. 예측까지 더해, 월말 집계에서 해방됩니다."]}
 };

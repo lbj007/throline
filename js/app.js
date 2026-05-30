@@ -190,9 +190,14 @@
 
     // mobile menu
     var tog=document.getElementById("navToggle");
+    function closeNav(){nav.classList.remove("nav-open");if(tog)tog.setAttribute("aria-expanded","false");}
     if(tog){tog.addEventListener("click",function(){var open=nav.classList.toggle("nav-open");tog.setAttribute("aria-expanded",open?"true":"false");});}
     document.querySelectorAll(".nav-links a").forEach(function(a){
-      a.addEventListener("click",function(){nav.classList.remove("nav-open");if(tog)tog.setAttribute("aria-expanded","false");});
+      a.addEventListener("click",closeNav);
+    });
+    // tap anywhere outside the open menu closes it
+    document.addEventListener("click",function(e){
+      if(nav.classList.contains("nav-open")&&!nav.contains(e.target))closeNav();
     });
 
     // wechat modal
@@ -211,7 +216,7 @@
     var lb=document.getElementById("lightbox");
     document.getElementById("lbClose").addEventListener("click",function(){closeDialog(lb);});
     lb.addEventListener("click",function(e){if(e.target===lb)closeDialog(lb);});
-    document.addEventListener("keydown",function(e){if(e.key==="Escape"){if(!qrModal.hidden)closeDialog(qrModal);if(!lb.hidden)closeDialog(lb);}});
+    document.addEventListener("keydown",function(e){if(e.key==="Escape"){if(!qrModal.hidden)closeDialog(qrModal);if(!lb.hidden)closeDialog(lb);if(nav.classList.contains("nav-open"))closeNav();}});
 
     var yr=(new Date()).getFullYear()||2026;
     document.getElementById("footYear").textContent="© "+yr+" "+BRANDFULL;
