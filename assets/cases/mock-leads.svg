@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 740" font-family="'IBM Plex Mono',ui-monospace,'PingFang SC',monospace">
+  <rect width="1200" height="740" fill="#0B0C0E"/>
+  <rect x="1" y="1" width="1198" height="738" fill="none" stroke="#23262b"/>
+  <!-- top bar -->
+  <rect x="0" y="0" width="1200" height="56" fill="#101216"/>
+  <circle cx="28" cy="28" r="5" fill="#CDF564"/><circle cx="46" cy="28" r="5" fill="#3a3d42"/><circle cx="64" cy="28" r="5" fill="#3a3d42"/>
+  <text x="96" y="33" fill="#E9E6DE" font-size="15" font-weight="600">线索自动分配 · LEAD ROUTING</text>
+  <!-- badge -->
+  <rect x="32" y="86" width="318" height="34" rx="17" fill="#1f2a16"/>
+  <circle cx="54" cy="103" r="5" fill="#CDF564"/>
+  <text x="70" y="108" fill="#CDF564" font-size="13">每 5 分钟自动分配 · 已替代人工派单</text>
+  <text x="980" y="108" fill="#67675F" font-size="12">上次运行 · 2 分钟前</text>
+  <!-- summary stats -->
+  <g>
+    <rect x="32" y="138" width="270" height="86" rx="10" fill="#15181D" stroke="#23262b"/>
+    <text x="52" y="168" fill="#67675F" font-size="12">今日待分配</text><text x="52" y="206" fill="#E9E6DE" font-size="28" font-weight="700">312</text>
+    <rect x="318" y="138" width="270" height="86" rx="10" fill="#15181D" stroke="#23262b"/>
+    <text x="338" y="168" fill="#67675F" font-size="12">已自动分配</text><text x="338" y="206" fill="#CDF564" font-size="28" font-weight="700">298</text>
+    <rect x="604" y="138" width="270" height="86" rx="10" fill="#15181D" stroke="#23262b"/>
+    <text x="624" y="168" fill="#67675F" font-size="12">参与销售</text><text x="624" y="206" fill="#E9E6DE" font-size="28" font-weight="700">24</text>
+    <rect x="890" y="138" width="278" height="86" rx="10" fill="#15181D" stroke="#23262b"/>
+    <text x="910" y="168" fill="#67675F" font-size="12">分配均衡度</text><text x="910" y="206" fill="#E9E6DE" font-size="28" font-weight="700">0.96</text>
+  </g>
+  <!-- table -->
+  <rect x="32" y="244" width="1136" height="464" rx="10" fill="#101216" stroke="#23262b"/>
+  <g fill="#67675F" font-size="12">
+    <text x="60" y="284">销售（脱敏）</text><text x="430" y="284">今日分配</text><text x="640" y="284">负载</text><text x="980" y="284">状态</text>
+  </g>
+  <line x1="56" y1="298" x2="1144" y2="298" stroke="#23262b"/>
+  <!-- rows -->
+  <g font-size="14">
+    <!-- row gen via repeated blocks -->
+    <g transform="translate(0,318)">
+      <text x="60" y="20" fill="#C9C7BE">陈▮▮</text><text x="180" y="20" fill="#67675F" font-size="12">SCRM · 数学组</text>
+      <text x="448" y="20" fill="#E9E6DE">18</text>
+      <rect x="640" y="8" width="300" height="14" rx="7" fill="#1d2026"/><rect x="640" y="8" width="246" height="14" rx="7" fill="#CDF564"/>
+      <circle cx="982" cy="15" r="5" fill="#CDF564"/><text x="996" y="20" fill="#9A998F" font-size="12">接单中</text>
+    </g>
+    <g transform="translate(0,366)">
+      <text x="60" y="20" fill="#C9C7BE">李▮▮</text><text x="180" y="20" fill="#67675F" font-size="12">SCRM · 数学组</text>
+      <text x="448" y="20" fill="#E9E6DE">16</text>
+      <rect x="640" y="8" width="300" height="14" rx="7" fill="#1d2026"/><rect x="640" y="8" width="210" height="14" rx="7" fill="#CDF564"/>
+      <circle cx="982" cy="15" r="5" fill="#CDF564"/><text x="996" y="20" fill="#9A998F" font-size="12">接单中</text>
+    </g>
+    <g transform="translate(0,414)">
+      <text x="60" y="20" fill="#C9C7BE">王▮▮</text><text x="180" y="20" fill="#67675F" font-size="12">SCRM · 数学组</text>
+      <text x="448" y="20" fill="#E9E6DE">15</text>
+      <rect x="640" y="8" width="300" height="14" rx="7" fill="#1d2026"/><rect x="640" y="8" width="190" height="14" rx="7" fill="#9bbf4a"/>
+      <circle cx="982" cy="15" r="5" fill="#CDF564"/><text x="996" y="20" fill="#9A998F" font-size="12">接单中</text>
+    </g>
+    <g transform="translate(0,462)">
+      <text x="60" y="20" fill="#C9C7BE">赵▮▮</text><text x="180" y="20" fill="#67675F" font-size="12">SCRM · 数学组</text>
+      <text x="448" y="20" fill="#E9E6DE">14</text>
+      <rect x="640" y="8" width="300" height="14" rx="7" fill="#1d2026"/><rect x="640" y="8" width="176" height="14" rx="7" fill="#9bbf4a"/>
+      <circle cx="982" cy="15" r="5" fill="#CDF564"/><text x="996" y="20" fill="#9A998F" font-size="12">接单中</text>
+    </g>
+    <g transform="translate(0,510)">
+      <text x="60" y="20" fill="#C9C7BE">周▮▮</text><text x="180" y="20" fill="#67675F" font-size="12">SCRM · 数学组</text>
+      <text x="448" y="20" fill="#E9E6DE">12</text>
+      <rect x="640" y="8" width="300" height="14" rx="7" fill="#1d2026"/><rect x="640" y="8" width="150" height="14" rx="7" fill="#9bbf4a"/>
+      <circle cx="982" cy="15" r="5" fill="#3a3d42"/><text x="996" y="20" fill="#67675F" font-size="12">已满</text>
+    </g>
+    <g transform="translate(0,558)">
+      <text x="60" y="20" fill="#C9C7BE">吴▮▮</text><text x="180" y="20" fill="#67675F" font-size="12">SCRM · 数学组</text>
+      <text x="448" y="20" fill="#E9E6DE">11</text>
+      <rect x="640" y="8" width="300" height="14" rx="7" fill="#1d2026"/><rect x="640" y="8" width="132" height="14" rx="7" fill="#9bbf4a"/>
+      <circle cx="982" cy="15" r="5" fill="#CDF564"/><text x="996" y="20" fill="#9A998F" font-size="12">接单中</text>
+    </g>
+  </g>
+  <line x1="56" y1="366" x2="1144" y2="366" stroke="#16191e"/><line x1="56" y1="414" x2="1144" y2="414" stroke="#16191e"/>
+  <line x1="56" y1="462" x2="1144" y2="462" stroke="#16191e"/><line x1="56" y1="510" x2="1144" y2="510" stroke="#16191e"/><line x1="56" y1="558" x2="1144" y2="558" stroke="#16191e"/>
+  <text x="60" y="638" fill="#67675F" font-size="12">规则：加权最少负载 + 新人倾斜 + 渠道倍率 · 销售姓名已脱敏</text>
+</svg>

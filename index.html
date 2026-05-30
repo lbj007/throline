@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Throughline — AI Automation &amp; Custom Systems</title>
+<meta name="description" data-i18n="meta_desc" content="A focused studio building production-grade AI, automation, and data systems.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+<div class="gridlines" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <a class="brand" href="#top" aria-label="Throughline home">
+    <img class="brand-mark" src="assets/logo/mark-step.svg" alt="" aria-hidden="true">
+    <span class="brand-name">Through<span class="brand-dim">line</span></span>
+    <span class="brand-cn" data-i18n="brand_cn"></span>
+  </a>
+  <nav class="nav-links" aria-label="Primary">
+    <a href="#work" data-i18n="nav_work">Work</a>
+    <a href="#capabilities" data-i18n="nav_capabilities">Capabilities</a>
+    <a href="#approach" data-i18n="nav_approach">Approach</a>
+    <a href="#contact" data-i18n="nav_contact">Contact</a>
+    <div class="lang lang-mobile" role="group" aria-label="Language">
+      <button data-lang="en" class="lang-btn">EN</button>
+      <button data-lang="zh" class="lang-btn">中文</button>
+      <button data-lang="ja" class="lang-btn">日本語</button>
+      <button data-lang="ko" class="lang-btn">한국어</button>
+    </div>
+  </nav>
+  <div class="nav-right">
+    <div class="lang" role="group" aria-label="Language">
+      <button data-lang="en" class="lang-btn">EN</button>
+      <button data-lang="zh" class="lang-btn">中文</button>
+      <button data-lang="ja" class="lang-btn">日本語</button>
+      <button data-lang="ko" class="lang-btn">한국어</button>
+    </div>
+    <a href="#contact" class="btn btn-sm" data-i18n="nav_cta">Start a project</a>
+  </div>
+  <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-eyebrow mono">
+      <span class="pulse" aria-hidden="true"></span>
+      <span data-i18n="hero_eyebrow">AI AUTOMATION · CUSTOM SYSTEMS</span>
+    </div>
+    <h1 class="hero-title" data-i18n="hero_title">Turn expensive manual work into AI systems that ship.</h1>
+    <p class="hero-sub" data-i18n="hero_sub">A focused studio building production-grade AI, automation, and data systems — RAG knowledge bases, agents, dashboards, and the safety rails that keep them honest.</p>
+    <div class="hero-cta">
+      <a href="#contact" class="btn" data-i18n="hero_cta1">Start a project</a>
+      <a href="#work" class="btn btn-ghost" data-i18n="hero_cta2">See the work →</a>
+    </div>
+    <div class="hero-stats mono">
+      <div class="stat"><span class="stat-num" data-i18n="stat1_n">10+</span><span class="stat-label" data-i18n="stat1_l">systems shipped</span></div>
+      <div class="stat"><span class="stat-num" data-i18n="stat2_n">solo</span><span class="stat-label" data-i18n="stat2_l">no agency overhead</span></div>
+      <div class="stat"><span class="stat-num" data-i18n="stat3_n">prod</span><span class="stat-label" data-i18n="stat3_l">grade, not demos</span></div>
+    </div>
+    <div class="hero-marquee" aria-hidden="true">
+      <div class="marquee-track mono" id="marquee"></div>
+    </div>
+  </section>
+
+  <!-- ============ TRUST STRIP ============ -->
+  <section class="trust-section" aria-label="How working together works">
+    <div class="trust-row" id="trustRow"></div>
+  </section>
+
+  <!-- ============ CAPABILITIES ============ -->
+  <section class="section" id="capabilities">
+    <div class="section-head">
+      <span class="section-no mono">01</span>
+      <h2 class="section-title" data-i18n="cap_title">What I build for you</h2>
+      <p class="section-lead" data-i18n="cap_lead">Six things, done end-to-end — from the data layer to the interface your team actually uses.</p>
+    </div>
+    <div class="cap-grid" id="capGrid"></div>
+  </section>
+
+  <!-- ============ WORK ============ -->
+  <section class="section" id="work">
+    <div class="section-head">
+      <span class="section-no mono">02</span>
+      <h2 class="section-title" data-i18n="work_title">Selected work</h2>
+      <p class="section-lead" data-i18n="work_lead">Real production systems, shipped solo. Client and employer names are kept generic by request.</p>
+    </div>
+    <div class="featured" id="featured"></div>
+  </section>
+
+  <!-- ============ APPROACH ============ -->
+  <section class="section" id="approach">
+    <div class="section-head">
+      <span class="section-no mono">03</span>
+      <h2 class="section-title" data-i18n="appr_title">Why work this way</h2>
+      <p class="section-lead" data-i18n="appr_lead">One senior builder, accountable end-to-end. No handoffs, no junior work, no overhead.</p>
+    </div>
+    <div class="appr-grid" id="apprGrid"></div>
+    <div class="process" id="process">
+      <span class="process-label mono" data-i18n="proc_label">HOW A PROJECT RUNS</span>
+      <div class="process-steps" id="processSteps"></div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section contact" id="contact">
+    <div class="section-no mono">04</div>
+    <h2 class="contact-title" data-i18n="contact_title">Have a workflow that's eating your team's time?</h2>
+    <p class="contact-sub" data-i18n="contact_sub">Tell me what's manual, repetitive, and expensive. If it can be a system, I'll tell you straight — and roughly what it takes.</p>
+    <div class="contact-actions">
+      <button class="btn btn-lg" id="wechatBtn" data-i18n="contact_wechat">WeChat</button>
+      <button class="btn btn-ghost btn-lg" id="telegramBtn" data-i18n="contact_telegram">Telegram</button>
+      <a class="btn btn-ghost btn-lg" id="emailBtn" href="mailto:bijianliu@gmail.com?subject=Project%20inquiry" data-i18n="contact_email">Email me</a>
+    </div>
+    <div class="contact-meta mono">
+      <span data-i18n="contact_meta">Usually replies within a day · EN / 中文 / 日本語 / 한국어</span>
+    </div>
+  </section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer-brand">
+    <img class="brand-mark" src="assets/logo/mark-step.svg" alt="" aria-hidden="true">
+    <span class="brand-name">Through<span class="brand-dim">line</span></span>
+    <span class="brand-cn" data-i18n="brand_cn"></span>
+  </div>
+  <div class="footer-note mono">
+    <span data-i18n="footer_tag">Senior systems, shipped solo.</span>
+    <span id="footYear"></span>
+  </div>
+</footer>
+
+<!-- ============ WECHAT MODAL ============ -->
+<div class="modal" id="qrModal" role="dialog" aria-modal="true" aria-label="QR code" hidden>
+  <div class="modal-card">
+    <button class="modal-close" id="qrClose" aria-label="Close">×</button>
+    <div class="modal-brand"><img class="brand-mark" src="assets/logo/mark-step.svg" alt="" aria-hidden="true"><span class="brand-name">Through<span class="brand-dim">line</span></span></div>
+    <img src="assets/wechat-qr.png" alt="QR code" class="modal-qr" id="qrImg">
+    <p class="mono" id="qrLabel"></p>
+  </div>
+</div>
+
+<!-- ============ LIGHTBOX ============ -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Case screen preview" hidden>
+  <button class="lightbox-close" id="lbClose" aria-label="Close">×</button>
+  <img id="lbImg" src="" alt="">
+  <p class="lightbox-cap mono" id="lbCap"></p>
+</div>
+
+<script src="js/i18n.js"></script>
+<script src="js/projects.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

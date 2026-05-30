@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 740" font-family="'IBM Plex Mono',ui-monospace,'PingFang SC',monospace">
+  <rect width="1200" height="740" fill="#0B0C0E"/>
+  <rect x="1" y="1" width="1198" height="738" fill="none" stroke="#23262b"/>
+  <!-- top bar -->
+  <rect x="0" y="0" width="1200" height="56" fill="#101216"/>
+  <circle cx="28" cy="28" r="5" fill="#CDF564"/><circle cx="46" cy="28" r="5" fill="#3a3d42"/><circle cx="64" cy="28" r="5" fill="#3a3d42"/>
+  <text x="96" y="33" fill="#E9E6DE" font-size="15" font-weight="600">销售知识库 · 智能问答 RAG</text>
+  <!-- sidebar -->
+  <rect x="0" y="56" width="288" height="684" fill="#0e1014"/>
+  <line x1="288" y1="56" x2="288" y2="740" stroke="#23262b"/>
+  <text x="28" y="100" fill="#67675F" font-size="12">知识库</text>
+  <g font-size="13" fill="#9A998F">
+    <rect x="20" y="116" width="248" height="36" rx="6" fill="#15181D"/><circle cx="40" cy="134" r="3" fill="#CDF564"/><text x="56" y="139">销售手册 v6</text>
+    <text x="56" y="183">产品 FAQ</text>
+    <text x="56" y="219">异议处理手册</text>
+    <text x="56" y="255">续报话术库</text>
+    <text x="56" y="291">竞品对比</text>
+  </g>
+  <text x="28" y="345" fill="#67675F" font-size="12">最近提问</text>
+  <g font-size="12" fill="#67675F"><text x="28" y="376">家长说太贵怎么接？</text><text x="28" y="404">续报最佳时机？</text><text x="28" y="432">对比 XX 机构优势？</text></g>
+  <!-- chat main -->
+  <g>
+    <!-- user question -->
+    <rect x="640" y="96" width="520" height="52" rx="12" fill="#1d2026"/>
+    <text x="664" y="128" fill="#C9C7BE" font-size="14">家长说"再考虑考虑"，怎么跟进最有效？</text>
+    <text x="1136" y="170" fill="#67675F" font-size="11" text-anchor="end">销售 · 14:22</text>
+    <!-- AI answer -->
+    <rect x="328" y="196" width="600" height="372" rx="12" fill="#13161b" stroke="#23262b"/>
+    <circle cx="356" cy="224" r="9" fill="none" stroke="#CDF564" stroke-width="1.6"/><circle cx="356" cy="224" r="3.4" fill="#CDF564"/>
+    <text x="376" y="229" fill="#E9E6DE" font-size="13" font-weight="600">知识库助手</text>
+    <rect x="470" y="216" width="68" height="18" rx="9" fill="#1f2a16"/><text x="504" y="229" fill="#CDF564" font-size="10.5" text-anchor="middle">已校验</text>
+    <g fill="#9A998F" font-size="13.5">
+      <text x="356" y="266">建议分三步，而不是直接降价：</text>
+      <text x="356" y="298">①  先共情 + 锁定真实顾虑（价格？效果？时间？）</text>
+      <text x="356" y="330">②  用一个同年级孩子的真实进步案例回应顾虑</text>
+      <text x="356" y="362">③  给一个有时限的试听 / 名额钩子，制造行动点</text>
+      <text x="356" y="402" fill="#67675F" font-size="12">48 小时内跟进，转化显著更高；首次跟进别谈钱。</text>
+    </g>
+    <!-- citation -->
+    <rect x="356" y="430" width="300" height="32" rx="6" fill="#15181D" stroke="#23262b"/>
+    <text x="372" y="451" fill="#9A998F" font-size="12">来源：异议处理手册 · 第 12 页</text>
+    <rect x="356" y="474" width="206" height="32" rx="6" fill="#15181D" stroke="#23262b"/>
+    <text x="372" y="495" fill="#9A998F" font-size="12">来源：续报话术库 · §3.2</text>
+  </g>
+  <!-- input -->
+  <rect x="328" y="664" width="832" height="48" rx="10" fill="#15181D" stroke="#23262b"/>
+  <text x="352" y="693" fill="#67675F" font-size="13">问点什么…（答案均带知识库出处，不杜撰）</text>
+  <rect x="1096" y="672" width="48" height="32" rx="7" fill="#CDF564"/><text x="1120" y="693" fill="#0B0C0E" font-size="13" text-anchor="middle" font-weight="600">↑</text>
+</svg>
