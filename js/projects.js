@@ -7,30 +7,30 @@
 window.FEATURED = {
   stack:["Flask","SQLite","ChromaDB","DeepSeek","gunicorn","RAG"], year:"2025–26",
   images:[
-    {src:"assets/cases/mock-overview.svg",cap:{en:"Sales performance at a glance (sample; sensitive figures hidden)",zh:"销售业绩总览图（示意，敏感数字已隐去）",ja:"売上の全体像がひと目で（サンプル、機微な数値は伏せ）",ko:"영업 실적 한눈에 (샘플, 민감 수치 가림)"}},
-    {src:"assets/cases/mock-rag.svg",cap:{en:"Ask, get an answer, and see which document it came from (sample)",zh:"一问就答，还告诉你答案出自哪份资料（示意）",ja:"聞けば即答、どの資料からの答えかも分かる（サンプル）",ko:"물으면 바로 답, 어느 자료에서 나왔는지까지 (샘플)"}},
-    {src:"assets/cases/mock-leads.svg",cap:{en:"Customers auto-assigned to reps, lighter load for the busy ones (names hidden, sample)",zh:"客户自动分给销售，手上客户多的就少分点（姓名已隐去，示意）",ja:"見込み客を自動で担当へ。手一杯の人には少なめに（氏名は伏せ、サンプル）",ko:"고객을 자동으로 영업 담당에게 배정, 바쁜 사람은 적게 (이름 가림, 샘플)"}}
+    {src:"assets/cases/real-overview.webp",cap:{en:"Sales analytics board — leads, conversion and target attainment at a glance (real screen; revenue figures redacted)",zh:"销售经营分析看板：线索 · 转化 · 业绩达成一屏看全（真实后台，营收数字已隐去）",ja:"営業分析ボード：リード・転換・実績達成を一画面で（実画面、売上は非表示）",ko:"영업 분석 보드: 리드 · 전환 · 목표 달성을 한 화면에 (실제 화면, 매출 가림)"}},
+    {src:"assets/cases/real-rag.webp",cap:{en:"Knowledge-base Q&A — ask, get an answer, with the source document cited (real screen)",zh:"知识库智能问答：一问就答，并标注答案出自哪份资料（真实后台）",ja:"ナレッジQ&A：聞けば即答、出典資料も明示（実画面）",ko:"지식베이스 Q&A: 물으면 바로 답, 출처 자료까지 표시 (실제 화면)"}},
+    {src:"assets/cases/real-leads.webp",cap:{en:"Leads auto-assigned to reps by rule — the busier the rep, the fewer they get (real screen; rep names masked)",zh:"线索按规则自动派给销售，谁手上线索多就少分（真实后台，销售姓名已脱敏）",ja:"リードはルールで自動割当 — 手一杯の人ほど少なめに（実画面、氏名は伏せ）",ko:"리드를 규칙에 따라 자동 배정 — 바쁜 사람일수록 적게 (실제 화면, 이름 가림)"}}
   ],
   en:{sector:"K-12 EDUCATION · US-IPO-STAGE",title:"Sales Enablement & Operations Platform",
     tags:["Instant answers","AI practice calls","Auto-assign customers","One daily report","Forecasts","Call scoring"],
     summary:"A US-IPO-stage K-12 education company with a sales team of hundreds. They were assigning leads by hand, hunting through documents for the right script, and rebuilding the monthly numbers in spreadsheets. I turned all of it into one internal system that runs itself, and the team now uses it every day to run a business doing over ¥100M a year. <b>The same goes for your business:</b> run a clinic or a shop and it's appointment reminders, post-visit follow-ups, and sales rolled up across locations; run a wholesale operation and it's customer follow-up, reconciling the books, and tracking down stock. Same idea, whatever your trade.",
-    impact:[{n:"¥100M+",l:"annual revenue it supports"},{n:"¥10M+",l:"net profit it underpins"},{n:"daily",l:"used by the whole sales team"}],
-    hl:["The team gets the right script, price or policy the moment they ask, every answer backed by a source.","AI plays the customer so reps can practice, then scores them, so new hires ramp up faster.","Every lead reaches the right person within minutes, instead of a manager assigning them by hand.","Every sales call is reviewed and scored automatically, not just a random sample.","The monthly numbers build themselves into a daily dashboard, with forecasts, so no more spreadsheet nights."]},
+    impact:[{n:"¥100M+",l:"annual revenue it supports"},{n:"¥10M+",l:"net profit it underpins"},{n:"~30×",l:"faster lead routing · 8h → 16min"},{n:"daily",l:"used by the whole sales team"}],
+    hl:["The team gets the right script, price or policy the moment they ask, every answer backed by a source.","AI plays the customer so reps can practice, then scores them, so new hires ramp up faster.","Every lead is auto-assigned to the right rep — a weighted engine runs every 5 minutes, cutting time-to-assignment from ~8 hours of manual hand-offs to 16 minutes.","Every sales call is reviewed and scored automatically, not just a random sample.","The monthly numbers build themselves into a daily dashboard, with forecasts, so no more spreadsheet nights."]},
   zh:{sector:"K12 教育 · 美股准上市公司",title:"给销售团队的自动化系统",
     tags:["话术秒查","AI 模拟练话术","客户自动派单","经营一张表","业绩预测","电话自动打分"],
     summary:"一家美股准上市 K12 教育公司，几百人的销售团队。原本靠人工分客户、翻文档找话术、月底手工拉表汇总经营数据；我把这些重活做成一套会自己跑的内部系统，团队每天在用，支撑着这家公司亿元级营收的业务。<b>换成你的生意也一样：</b>开门店就是预约提醒、到店回访、多店业绩自动汇总；做批发就是客户跟进、核对账目、找货——同一套思路。",
-    impact:[{n:"亿元级",l:"所支撑业务的年营收"},{n:"千万级",l:"所支撑业务的净利润"},{n:"每天",l:"整个销售团队都在用"}],
-    hl:["团队张口就查到该用的话术、报价、政策，答案都带出处，不用再翻文档。","AI 扮演客户陪销售练话术，还自动打分，新人上手更快。","每条线索几分钟内自动派给最合适的人，不再靠主管手动分。","每通销售电话自动复盘打分，从抽检变成全覆盖。","经营数据每天自动汇成看板、还能预测业绩，月底不用再手工拉表。"]},
+    impact:[{n:"亿元级",l:"所支撑业务的年营收"},{n:"千万级",l:"所支撑业务的净利润"},{n:"约 30×",l:"线索派单提速 · 8 小时→16 分钟"},{n:"每天",l:"整个销售团队都在用"}],
+    hl:["团队张口就查到该用的话术、报价、政策，答案都带出处，不用再翻文档。","AI 扮演客户陪销售练话术，还自动打分，新人上手更快。","线索每 5 分钟自动按负载加权派给最合适的销售，从入库到派单由人工的约 8 小时压到 16 分钟，主管不再手动分。","每通销售电话自动复盘打分，从抽检变成全覆盖。","经营数据每天自动汇成看板、还能预测业绩，月底不用再手工拉表。"]},
   ja:{sector:"K-12 教育 · 米国上場準備",title:"営業支援・経営プラットフォーム",
     tags:["即答ナレッジ","AI模擬ロープレ","見込み客 自動割当","日次レポート","売上予測","通話 自動採点"],
     summary:"米国上場準備段階まで進んだ K-12 教育企業、数百人の営業チーム。以前はリードを手で割り振り、資料を探してトークを見つけ、月末は数字を手作業で集計していました。これらをまるごと、ひとりでに回る内製システムにしました。年商1億元超の事業を支え、チームが毎日使っています。<b>あなたの商売でも同じです：</b>お店をやっているなら予約のリマインド、来店後のフォロー、何店舗あっても売上は勝手に一つにまとまる；卸をやっているなら客先の追いかけ、帳簿の突き合わせ、在庫探し——どれも同じやり方です。",
-    impact:[{n:"1億元超",l:"支える事業の年商"},{n:"千万元超",l:"支える事業の純利益"},{n:"毎日",l:"営業チーム全員が使用"}],
-    hl:["トーク、見積、社内ルールが、聞けばその場で。答えには必ず出どころ付き。資料探しはもう不要。","AIが顧客役を務め、営業が練習でき、自動で採点。新人の立ち上がりが速くなります。","どのリードも数分で最適な担当へ自動で。上長が手で割り振る必要はありません。","すべての営業通話を自動でレビュー・採点。抜き取りではなく全件を。","月次の数字は毎日ひとりでにダッシュボードへ。予測まで付き、月末の集計作業から解放されます。"]},
+    impact:[{n:"1億元超",l:"支える事業の年商"},{n:"千万元超",l:"支える事業の純利益"},{n:"約30×",l:"リード割当を高速化 · 8時間→16分"},{n:"毎日",l:"営業チーム全員が使用"}],
+    hl:["トーク、見積、社内ルールが、聞けばその場で。答えには必ず出どころ付き。資料探しはもう不要。","AIが顧客役を務め、営業が練習でき、自動で採点。新人の立ち上がりが速くなります。","リードは5分ごとに負荷加重で最適な担当へ自動割当。入庫から割当までを人手の約8時間から16分に短縮し、上長の手作業は不要に。","すべての営業通話を自動でレビュー・採点。抜き取りではなく全件を。","月次の数字は毎日ひとりでにダッシュボードへ。予測まで付き、月末の集計作業から解放されます。"]},
   ko:{sector:"K-12 교육 · 미국 상장 준비",title:"영업 지원·경영 플랫폼",
     tags:["즉답 검색","AI 모의 연습","고객 자동 배정","일일 리포트","매출 예측","통화 자동 채점"],
     summary:"미국 상장 준비 단계까지 갔던 K-12 교육 기업, 수백 명 규모의 영업팀. 예전에는 리드를 손으로 배정하고, 자료를 뒤져 멘트를 찾고, 월말에 숫자를 수작업으로 집계했습니다. 이 모든 걸 알아서 돌아가는 사내 시스템으로 만들었습니다. 연 매출 1억 위안이 넘는 사업을 떠받치고, 팀이 매일 씁니다.<b>당신 사업도 똑같습니다:</b> 매장 하시면 예약 알림, 방문 후 후속 연락, 여러 매장 매출 자동 집계고요, 도매 하시면 거래처 관리, 장부 대조, 물건 찾기 — 결국 같은 방식입니다.",
-    impact:[{n:"1억 위안+",l:"지원 사업 연매출"},{n:"천만 위안+",l:"지원 사업 순이익"},{n:"매일",l:"영업팀 전체가 사용"}],
-    hl:["멘트, 견적, 정책을 물으면 그 자리에서. 답변마다 출처가 붙어 자료를 뒤질 일이 없습니다.","AI가 고객 역할을 맡아 영업이 연습하고, 자동으로 채점합니다. 신입이 더 빨리 자리잡습니다.","모든 리드가 몇 분 안에 가장 알맞은 사람에게 자동 배정. 관리자가 손으로 나눌 필요가 없습니다.","모든 영업 통화를 자동으로 리뷰·채점. 표본이 아니라 전체를.","월별 숫자가 매일 알아서 대시보드로. 예측까지 더해, 월말 집계에서 해방됩니다."]}
+    impact:[{n:"1억 위안+",l:"지원 사업 연매출"},{n:"천만 위안+",l:"지원 사업 순이익"},{n:"약 30×",l:"리드 배정 속도 · 8시간→16분"},{n:"매일",l:"영업팀 전체가 사용"}],
+    hl:["멘트, 견적, 정책을 물으면 그 자리에서. 답변마다 출처가 붙어 자료를 뒤질 일이 없습니다.","AI가 고객 역할을 맡아 영업이 연습하고, 자동으로 채점합니다. 신입이 더 빨리 자리잡습니다.","리드는 5분마다 부하 가중으로 가장 알맞은 담당에게 자동 배정 — 입고부터 배정까지 수작업 약 8시간에서 16분으로 단축, 관리자가 손으로 나눌 필요가 없습니다.","모든 영업 통화를 자동으로 리뷰·채점. 표본이 아니라 전체를.","월별 숫자가 매일 알아서 대시보드로. 예측까지 더해, 월말 집계에서 해방됩니다."]}
 };
 
 window.PROJECTS = [
